@@ -1,0 +1,13 @@
+
+h1 {
+    font-family: Roboto Slab, serif;
+    color: blue;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.copyButton{
+   margin-left: 30px;
+    
+}
+
