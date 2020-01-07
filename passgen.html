@@ -10,28 +10,42 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Mark Golino's Password Generator</h1>
+        <p align ="center" class="lead">This is a simple utility to generate any size password with any characters!</p>
+        <hr class="my-4">
+        
+        <div class="row">
+    <div class="col-sm">
+        <a class="btn btn-primary btn-lg" onclick="passGen()" role="button">Make me a password!</a>
+    </div>
+
     <div class="container">
-        <h1 class="welcome">Mark Golino's Password Generator</h1>
+        <!-- <h1 class="welcome">Mark Golino's Password Generator</h1> -->
         <br>
 
         <!-- <button onclick="passGen()">Make me a password!</button> -->
-        <button type="button" onclick="passGen()" class="btn btn-success">Make me a password!</button>
-        <br>
-        <br>
+        <!-- <button type="button" onclick="passGen()" class="btn btn-success">Make me a password!</button> -->
+       
         <form name="genPassWord">
-            <!-- <input type="text" value="My Random Password" onClick="passGen();">&nbsp; -->
+            
             <div class="col-lg-30">
                 <input type="text" class=form-control" name="passField" id="inputPassword" value="Press that Button!">
-                
+                </div>
             </div> 
+            
         </form>
         </div>
         <br>
+        <div class="row">
+            <div class="col-sm">
         <div class="copyButton">
             
         <button onclick="myFunction()">Copy to the clipboard</button>
       </div>
-
+            </div>
+  </div>
     <script src= "./script.js"></script>
 </body>
 </html>
