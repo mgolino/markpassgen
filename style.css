@@ -5,23 +5,23 @@ h1 {
     background-color: darkgray;
     text-align: center;
 }
-
+/* 
 .copyButton{
    margin-left: 0px;
    float: left;
    margin-right: 250px;
   
     
-}
+} */
 
 body{
     background-color: aliceblue;
 }
-
+/* 
 .col-lg-30{
     
     float: left;
-}
+} */
 
 .jumbotron {
 padding-left: 200px;
